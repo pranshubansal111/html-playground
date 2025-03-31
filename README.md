@@ -1,2 +1,36 @@
-# html-playground
-This repository is dedicated to practicing and mastering HTML coding skills. It contains a collection of various HTML projects, exercises, and experiments designed to explore the core concepts and advanced features of HTML.
+# HTML-Playground
+
+Welcome to **HTML-Playground**! This repository serves as a collection of all my HTML practice code, covering various aspects of HTML, from basic elements to advanced structures and modern best practices.
+
+## 🚀 Repository Overview
+This repository contains various HTML files that demonstrate different features and concepts of HTML, including:
+- Basic HTML structure
+- Forms and input fields
+- Tables and lists
+- Semantic HTML
+- Multimedia integration (images, audio, video)
+
+## 📂 Repository Structure
+The repository is organized into the following sections:
+- **Basics/**: Foundational HTML concepts and essential tags.
+- **Forms/**: Practice with creating and validating forms.
+- **Tables/**: Learn how to build and style tables effectively.
+- **Multimedia/**: Embedding and customizing videos, images, and audio.
+
+## 🛠️ Getting Started
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/pranshubansal111/html-playground.git
+   ```
+2. Navigate into the repository folder:
+   ```sh
+   cd html-playground
+   ```
+3. Open any `.html` file in a browser to view the output.
+4. Modify and experiment with the code as needed!
+
+## Contributions
+This repository is primarily for my personal learning and practice, but if you have suggestions or improvements, feel free to fork the repo and submit a pull request.
+
+## Contact
+If you have any questions or suggestions, feel free to reach out!
