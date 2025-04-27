@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unordered Lists</title>
+</head>
+<body>
+    <h1>Unordered Lists in HTML</h1>
+    
+    <p>An <strong>unordered list</strong> is a list in which the list items are not in any specific order. Instead of numbers, unordered lists typically use bullets (•) to mark each item. Unordered lists are created using the &lt;ul&gt; tag, and each list item is defined using the &lt;li&gt; tag.</p>
+    
+    <h2>Basic Example</h2>
+    <p>This is a basic unordered list:</p>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <p>The list above uses the default bullet style to mark each item.</p>
+
+    <h2>Customizing List Bullet Style</h2>
+    <p>By default, unordered lists use a bullet (•), but we can change the bullet style using the <code>style</code> attribute:</p>
+    
+    <p>The below example uses square bullets (▪) instead of the default round ones.</p>
+    <ul style="list-style-type: square;">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>    
+
+    <p>The below example uses the default bullets (•).</p>
+    <ul style="list-style-type: disc;">
+        <li>Item X</li>
+        <li>Item Y</li>
+        <li>Item Z</li>
+    </ul>
+   
+    <p>The below example uses circle bullets (◦).</p>
+    <ul style="list-style-type: circle;">
+        <li>Item I</li>
+        <li>Item II</li>
+        <li>Item III</li>
+    </ul>
+
+    <h2>Nested Unordered Lists</h2>
+    <p>Unordered lists can also be nested inside each other:</p>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>The nested lists show how unordered lists can be used to represent categories and their respective items.</p>
+
+    <p>Unordered lists are perfect for displaying items where the order doesn't matter, such as bullet points or categories. We can customize the list's appearance by changing the bullet style, and also nest unordered lists to create hierarchical structures.</p>
+    
+</body>
+</html>
