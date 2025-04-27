@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table with Rowspan and Colspan</title>
+</head>
+<body>
+
+    <h1>HTML Table example Rowspan and Colspan</h1>
+    
+    <p>This table demonstrates the use of <code>rowspan</code>, <code>colspan</code> in the table.</p>
+    
+    <table border="1">
+        <caption>Employee Attendance</caption>
+        <thead>
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>January</th>
+                <th>February</th>
+                <th>March</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">101</td>
+                <td rowspan="2">Alice</td>
+                <td>Present</td>
+                <td>Absent</td>
+                <td>Present</td>
+            </tr>
+            <tr>
+                <td>Absent</td>
+                <td>Present</td>
+                <td>Absent</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob</td>
+                <td colspan="2">Sick Leave</td>
+                <td>Present</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total Days</td>
+                <td>2</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The table above demonstrates:
+        <br>
+        - <code>rowspan</code> (spans across multiple rows)
+        <br>
+        - <code>colspan</code> (spans across multiple columns)
+    </p>
+
+</body>
+</html>
