@@ -13,9 +13,11 @@ This repository contains various HTML files that demonstrate different features 
 ## 📂 Repository Structure
 The repository is organized into the following sections:
 - **Basics/**: Foundational HTML concepts and essential tags.
-- **Forms/**: Practice with creating and validating forms.
-- **Tables/**: Learn how to build and style tables effectively.
-- **Multimedia/**: Embedding and customizing videos, images, and audio.
+- **Intermediate/**: Intermediate level HTML concepts.
+- **Advance/**: Pro level HTML concepts.
+   - **Forms/**: Practice with creating and validating forms.
+   - **Tables/**: Learn how to build and style tables effectively.
+   - **Multimedia/**: Embedding and customizing videos, images, and audio.
 
 ## 🛠️ Getting Started
 1. Clone the repository to your local machine:
