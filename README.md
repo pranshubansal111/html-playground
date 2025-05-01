@@ -17,7 +17,7 @@ The repository is organized into the following sections:
 - **Advance/**: Pro level HTML concepts.
    - **Forms/**: Practice with creating and validating forms.
    - **Tables/**: Learn how to build and style tables effectively.
-   - **Multimedia/**: Embedding and customizing videos, images, and audio.
+   - **Lists/**: Learn how to build ordered and unordered lists.
 
 ## 🛠️ Getting Started
 1. Clone the repository to your local machine:
