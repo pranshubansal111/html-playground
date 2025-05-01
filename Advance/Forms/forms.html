@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+
+
+    <h1>HTML Forms</h1>
+    
+    <p>Forms are essential in HTML for gathering user input. Below is an example demonstrating various input types and how forms work in HTML.</p>
+    
+    <!-- Start of the form, the action attribute defines where the form data will be sent, and method defines how it will be sent -->
+    <form action="/submit-form">
+        
+        <!-- Input field for the user's name -->
+        <!-- <label> tag is used to associate a text label with the input element -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Input field for the user's email, with email validation -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Input field for the user's password, the password is hidden -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Radio buttons to select gender -->
+        <!-- Radio buttons allow only one selection in a group -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox to agree to terms and conditions -->
+        <!-- Checkboxes allow multiple selections -->
+        <label for="terms">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms" value="yes" required><br><br>
+
+        <!-- Dropdown menu for selecting an age group -->
+        <label for="age">Age Group:</label>
+        <select id="age" name="age">
+            <option selected disabled>select age</option>
+            <option value="under18">Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="31-50">31-50</option>
+            <option value="50plus">50+</option>
+        </select><br><br>
+
+        <!-- Textarea for additional comments -->
+        <!-- The textarea element allows for multi-line text input -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea><br><br>
+
+        <!-- Submit button to submit the form -->
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
